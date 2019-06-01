@@ -23,6 +23,7 @@ h2 {
 }
 
 h3 {
+    font-weight: 600;
     font-size: 1.2em;
 }
 
@@ -142,28 +143,9 @@ h3 {
 .skills {
     display: flex;
     padding: 8px;
-    /* border: dashed rgb(215, 59, 59) 1px; */
     border-radius: 2px;
 }
 
-table {
-    border: 1px solid black;
-}
-
-th {
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-}
-
-td {
-    padding-bottom: 8px;
-    border-right: 1px solid black;
-    text-align: center;
-}
-
-th {
-    font-weight: bold;
-}
 
 .projects-section {
     background-color: black;
@@ -207,4 +189,20 @@ footer a:hover {
     color: black;
 }
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills__names {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .skills__names ul {
+        text-align: center;
+        padding: 8px;
+    }
+
+}

@@ -1,0 +1,210 @@
+/* TODO:
+Responsive navbar!! */
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+    line-height: 2;
+    margin: 0 auto;
+}
+
+section {
+    padding: 10vh 10vw;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar__links {
+    height: 5vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.navbar__links li {
+    margin-left: 8px;
+}
+
+.navbar__links li a {
+    transition: all 0.7s ease-in-out;
+    padding: 8px;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.navbar__links li a:hover {
+    background: white;
+    color: black;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+
+.header__message {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.header__name {
+    margin: 10px 0;
+}
+
+.header__description {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.about-section {
+    color: black;
+    background-color: white;
+}
+
+.about-section__cv__link {
+    font-weight: 600;
+    margin: 0 0 50px 0;
+}
+
+.about-section__cv__link a {
+    transition: all 0.7s ease-in-out;
+    box-sizing: border-box;
+    padding: 8px;
+    color: black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.about-section__cv__link a:hover {
+    background: black;
+    color: white;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 50px 0;
+    padding: 8px;
+    /* border: dashed rgb(227, 227, 97) 1px; */
+    border-radius: 2px;
+}
+
+.profile__bio {
+    padding: 8px;
+}
+
+.profile img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* border: solid rgb(227, 227, 97) 1px; */
+    /* -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); */
+    /* SOMETHING IS UP WITH THE ZINDEX OF IT? */
+}
+
+.fac-info__header {
+    font-weight: bold;
+}
+
+.skills {
+    display: flex;
+    padding: 8px;
+    /* border: dashed rgb(215, 59, 59) 1px; */
+    border-radius: 2px;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+td {
+    padding-bottom: 8px;
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+}
+
+.projects-section {
+    background-color: black;
+    color: white;
+}
+
+.projects-section a {
+    color: white;
+}
+
+.contact-section {
+    height: 100px;
+    background-color: white;
+}
+
+.contact-section a {
+    color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    height: 10vh;
+    font-weight: 100;
+}
+
+footer a {
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+}
+
+footer a:hover {
+    background: white;
+    color: black;
+}
+
+@media only screen and (min-width: 768px) {}

@@ -19,7 +19,7 @@ section {
 
 h2 {
     font-weight: 600;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 h3 {
@@ -111,18 +111,11 @@ h3 {
     color: white;
 }
 
-.profile {
+.profile__bio {
+    padding: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin: 0 0 50px 0;
-    padding: 8px;
-    border-radius: 2px;
-}
-
-.profile__bio {
-    padding: 8px;
 }
 
 .profile__bio__anna {
@@ -132,13 +125,19 @@ h3 {
     border: solid black 1px;
 }
 
+.fac-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .fac-info__header {
     font-weight: bold;
 }
 
 .fac-info__img {
-    height: 80%;
-    width: 80%;
+    height: 100px;
+    width: 100px;
     border: solid black 1px;
 }
 
@@ -193,6 +192,10 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 990px) {
+    .profile__bio {
+        flex-direction: row;
+    }
+
     .skills {
         display: flex;
         flex-direction: column;

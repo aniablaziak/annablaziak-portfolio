@@ -113,12 +113,11 @@ h3 {
 
 .profile {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0 0 50px 0;
     padding: 8px;
-    /* border: dashed rgb(227, 227, 97) 1px; */
     border-radius: 2px;
 }
 
@@ -126,26 +125,30 @@ h3 {
     padding: 8px;
 }
 
-.profile img {
+.profile__bio__anna {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    /* border: solid rgb(227, 227, 97) 1px; */
-    /* -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); */
-    /* SOMETHING IS UP WITH THE ZINDEX OF IT? */
+    border: solid black 1px;
 }
 
 .fac-info__header {
     font-weight: bold;
 }
 
-.skills {
-    display: flex;
-    padding: 8px;
-    border-radius: 2px;
+.fac-info__img {
+    height: 80%;
+    width: 80%;
+    border: solid black 1px;
 }
 
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border-radius: 2px;
+    text-align: center;
+}
 
 .projects-section {
     background-color: black;
@@ -189,7 +192,7 @@ footer a:hover {
     color: black;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 990px) {
     .skills {
         display: flex;
         flex-direction: column;
@@ -198,6 +201,10 @@ footer a:hover {
     .skills__names {
         display: flex;
         justify-content: space-between;
+    }
+
+    .skills__header {
+        text-align: left;
     }
 
     .skills__names ul {

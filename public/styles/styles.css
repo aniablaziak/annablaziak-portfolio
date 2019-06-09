@@ -27,6 +27,14 @@ h3 {
     font-size: 1.2em;
 }
 
+a {
+    transition: all 0.7s ease-in-out;
+}
+
+.bold {
+    font-weight: 700;
+}
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -40,7 +48,8 @@ h3 {
     align-items: center;
     justify-content: flex-end;
     padding: 8px;
-    font-size: 20px;
+    font-size: 1.8em;
+    font-weight: 400;
 }
 
 .navbar__links li {
@@ -53,7 +62,6 @@ h3 {
     color: white;
     border-radius: 2px;
     text-decoration: none;
-    font-weight: 100;
 }
 
 .navbar__links li a:hover {
@@ -74,8 +82,8 @@ h3 {
 }
 
 .header__message {
-    font-size: 45px;
-    font-weight: 100;
+    font-size: 2.5em;
+    font-weight: 600;
 }
 
 .header__name {
@@ -94,7 +102,7 @@ h3 {
 
 .about-section__cv__link {
     font-weight: 600;
-    margin: 0 0 50px 0;
+    margin: 32px 8px;
 }
 
 .about-section__cv__link a {
@@ -119,8 +127,9 @@ h3 {
 }
 
 .profile__bio__anna {
-    height: 200px;
-    width: 200px;
+    margin: 16px;
+    width: 40%;
+    height: auto;
     border-radius: 50%;
     border: solid black 1px;
 }
@@ -129,15 +138,19 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 8px;
 }
 
 .fac-info__header {
     font-weight: bold;
+    padding: 8px;
 }
 
 .fac-info__img {
-    height: 100px;
-    width: 100px;
+    width: 100%;
+    height: auto;
+    margin: 8px;
+    margin-bottom: 16px;
     border: solid black 1px;
 }
 
@@ -155,7 +168,55 @@ h3 {
 }
 
 .projects-section a {
+    margin: 8px;
     color: white;
+}
+
+.project {
+    margin: 32px 0;
+    margin-bottom: 48px;
+}
+
+.projects__description {
+    margin: 8px 0;
+}
+
+.projects__dish__images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects__dish__images img {
+    width: 70%;
+    height: auto;
+    margin: 8px;
+    border: solid 1px white;
+}
+
+.projects__trains__img,
+.projects__dreams__img,
+.projects__calculator__img,
+.projects__masterming__img {
+    width: 100%;
+    height: auto;
+    margin: 8px 0;
+    border: solid 1px white;
+}
+
+.projects__ania-github {
+    padding: 8px;
+}
+
+.projects__ania-github__link {
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.projects__ania-github__link:hover {
+    background: white;
+    color: black;
 }
 
 .contact-section {
@@ -176,7 +237,7 @@ footer {
     color: white;
     background-color: black;
     height: 10vh;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 footer a {
@@ -192,8 +253,18 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 990px) {
+
+    .navbar__links {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
     .profile__bio {
         flex-direction: row;
+    }
+
+    .profile__bio__anna {
+        margin-right: 32px;
     }
 
     .skills {
@@ -215,4 +286,19 @@ footer a:hover {
         padding: 8px;
     }
 
+    .projects__dish__images {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .projects__dish__images img {
+        width: 30%;
+        height: auto;
+        margin: 8px;
+    }
+
+    .projects__dish__images img:first-child {
+        margin-left: 0;
+    }
 }

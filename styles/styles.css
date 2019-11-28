@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Muli', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     letter-spacing: 4px;
     line-height: 2;
     margin: 0 auto;
@@ -43,7 +43,7 @@ a {
 
 .navbar__links {
     height: 5vh;
-    background-color: black;
+    background-color: #1A1A1A;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -53,20 +53,20 @@ a {
 }
 
 .navbar__links li {
-    margin-left: 8px;
+    margin: 7px;
 }
 
 .navbar__links li a {
     transition: all 0.7s ease-in-out;
-    padding: 8px;
-    color: white;
+    color: #FEFEFE;
     border-radius: 2px;
+    padding: 3px;
     text-decoration: none;
 }
 
 .navbar__links li a:hover {
-    background: white;
-    color: black;
+    background: #FEFEFE;
+    color: #1A1A1A;
 }
 
 .header {
@@ -75,8 +75,8 @@ a {
     align-items: center;
     justify-content: center;
     height: 95vh;
-    background-color: black;
-    color: white;
+    background-color: #1A1A1A;
+    color: #FEFEFE;
     font-size: 3em;
     text-align: center;
 }
@@ -96,8 +96,8 @@ a {
 }
 
 .about-section {
-    color: black;
-    background-color: white;
+    color: #1A1A1A;
+    background-color: #FEFEFE;
 }
 
 .about-section__cv__link {
@@ -109,14 +109,10 @@ a {
     transition: all 0.7s ease-in-out;
     box-sizing: border-box;
     padding: 8px;
-    color: black;
+    background: #1A1A1A;
+    color: #FEFEFE;
     border-radius: 2px;
     cursor: pointer;
-}
-
-.about-section__cv__link a:hover {
-    background: black;
-    color: white;
 }
 
 .profile__bio {
@@ -131,7 +127,7 @@ a {
     width: 40%;
     height: auto;
     border-radius: 50%;
-    border: solid black 1px;
+    border: solid #1A1A1A 1px;
 }
 
 .fac-info {
@@ -151,7 +147,7 @@ a {
     height: auto;
     margin: 8px;
     margin-bottom: 16px;
-    border: solid black 1px;
+    border: solid #1A1A1A 1px;
 }
 
 .skills {
@@ -163,13 +159,13 @@ a {
 }
 
 .projects-section {
-    background-color: black;
-    color: white;
+    background-color: #1A1A1A;
+    color: #FEFEFE;
 }
 
 .projects-section a {
     margin: 8px;
-    color: white;
+    color: #FEFEFE;
 }
 
 .project {
@@ -192,7 +188,7 @@ a {
     width: 70%;
     height: auto;
     margin: 8px;
-    border: solid 1px white;
+    border: solid 1px #FEFEFE;
 }
 
 .projects__trains__img,
@@ -202,7 +198,7 @@ a {
     width: 100%;
     height: auto;
     margin: 8px 0;
-    border: solid 1px white;
+    border: solid 1px #FEFEFE;
 }
 
 .projects__ania-github {
@@ -215,17 +211,17 @@ a {
 }
 
 .projects__ania-github__link:hover {
-    background: white;
-    color: black;
+    background: #FEFEFE;
+    color: #1A1A1A;
 }
 
 .contact-section {
     height: 100px;
-    background-color: white;
+    background-color: #FEFEFE;
 }
 
 .contact-section a {
-    color: black;
+    color: #1A1A1A;
 }
 
 footer {
@@ -234,22 +230,22 @@ footer {
     font-size: 15px;
     align-items: center;
     justify-content: center;
-    color: white;
-    background-color: black;
+    color: #FEFEFE;
+    background-color: #1A1A1A;
     height: 10vh;
     font-weight: 400;
 }
 
 footer a {
-    color: white;
+    color: #FEFEFE;
     border-radius: 2px;
     cursor: pointer;
     transition: all 0.7s ease-in-out;
 }
 
 footer a:hover {
-    background: white;
-    color: black;
+    background: #FEFEFE;
+    color: #1A1A1A;
 }
 
 @media only screen and (min-width: 990px) {

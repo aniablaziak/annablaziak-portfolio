@@ -1,1 +1,1 @@
-# Anna Blaziak portfolio: https://aniablaziak.github.io/annablaziak-portfolio/
+# Anna Błaziak portfolio: https://aniablaziak.github.io/annablaziak-portfolio/
